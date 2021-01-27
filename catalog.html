@@ -73,13 +73,46 @@
           </label>
         </fieldset>
 
+        <fieldset>
+          <legend>Производители:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="brands" value="Bosch" id="filter-BOSCH" checked>
+              <label for="filter-BOSCH">Bosch</label>
+            </li>
+            <li>
+              <input type="checkbox" name="brands" value="Интерскол" id="filter-Интерскол">
+              <label for="filter-Интерскол">Интерскол</label>
+            </li>
+            <li>
+              <input type="checkbox" name="brands" value="Makita" id="filter-Makita" checked>
+              <label for="filter-Makita">Makita</label>
+            </li>
+            <li>
+              <input type="checkbox" name="brands" value="Dewalt" id="filter-Dewalt">
+              <label for="filter-Dewalt">Dewalt</label>
+            </li>
+            <li>
+              <input type="checkbox" name="brands" value="Hitachi" id="filter-Hitachi">
+              <label for="filter-Hitachi">Hitachi</label>
+            </li>
+          </ul>
+        </fieldset>
 
-
-
-
-
-
-
+        <fieldset>
+          <legend>Питание:</legend>
+          <ul>
+            <li>
+              <input type="radio" name="product-group" value="batteries" id="filter-batteries">
+              <label for="filter-batteries">Аккумуляторные</label>
+            </li>
+            <li>
+              <input type="radio" name="product-group" value="mains" id="filter-mains" checked>
+              <label for="filter-mains">Сетевые</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
       </form>
     </section>
 
