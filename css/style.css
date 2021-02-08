@@ -88,17 +88,21 @@ img {
   color: inherit;
   background-color: transparent;
 }
+
 .nav-searchbar:active
 .menu-bar-cart:active {
   opacity: 0.5;
 }
+
 .nav-searchbar:focus {
   background-color: var(--color-white);
 }
+
 .menu-bar-checkout {
   color: inherit;
   background-color: var(--color-green-2);
 }
+
 .menu-bar-checkout:active {
   opacity: 0.5;
 }
