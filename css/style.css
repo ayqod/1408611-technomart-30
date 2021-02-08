@@ -73,8 +73,6 @@ img {
 }
 
 .menu-bar {
-  font-size: 18px;
-  line-height: 24px;
   color: var(--color-white);
   background-color: var(--color-blue-3);
 }
@@ -269,12 +267,6 @@ img {
 .client-list {
     list-style: none;
     padding: 0;
-}
-
-.client-list-item {
-    color: var(--color-black);
-    font-size: 18px;
-    line-height: 24px;
 }
 
 /* Footer */
