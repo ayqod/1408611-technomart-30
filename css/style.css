@@ -31,3 +31,278 @@
   --tranparent-extra-dark: rgba(169,169,169,0.3);
   --transparent-black: rgba(0, 0, 0, 0.15);
  }
+
+ body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-button {
+  background-color: var(--color-red-0);
+  color: var(--color-white);
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: none;
+}
+
+/* Main navigation */
+
+.main-header {
+  background-color: var(--color-grey-1);
+}
+.header-logo {
+  background-color: var(--color-red-0);
+}
+.menu-bar {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-white);
+  background-color: var(--color-blue-3);
+}
+
+.header-logo:active {
+  background-color: var(--color-red-2);
+}
+
+.nav-searchbar,
+.menu-bar-bookmark,
+.menu-bar-cart {
+  /*окошко серым*/
+  color: inherit;
+  background-color: transparent;
+}
+.nav-searchbar:active
+.menu-bar-cart:active {
+  opacity: 0.5;
+}
+.nav-searchbar:focus {
+  background-color: var(--color-white);
+}
+.menu-bar-checkout {
+  color: inherit;
+  background-color: var(--color-green-2);
+}
+.menu-bar-checkout:active {
+  opacity: 0.5;
+}
+
+/* Header contacts */
+
+.slogan {
+  color: var(--color-red-0);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.menu-contact{
+  color: var(--color-blue-2);
+}
+
+.header-phone a {
+  color: var(--color-red-0);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.header-phone::before {
+  /*добавить лого*/
+}
+
+.header-address {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.header-menu-bar a {
+  color: var(--color-black);
+  font-size: 21px;
+  line-height: 21px;
+}
+
+/* Website main navigation */
+.main-header-nav {
+  color: var(--color-white);
+}
+
+.header-nav-list {
+  list-style: none;
+  color: var(--color-white);
+  background-color: var(--color-blue-2);
+  padding: 0;
+}
+
+.nav-list-item a {
+  color: inherit;
+}
+
+/* Featured */
+
+.featured-grid {
+  list-style: none;
+  padding: 0;
+}
+
+.featured-item {
+  width: 300px;
+  height: 123px;
+  color: var(--color-white);
+}
+
+.featured-item h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.featured-button {
+  color: inherit;
+  background-color: var(--tranparent-white);
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.featured-item-materials {
+  background-color: var(--color-yellow-2);
+}
+
+.featured-item-tools {
+  background-color: var(--color-blue-0);
+}
+
+.featured-item-tech {
+  background-color: var(--color-pink);
+}
+
+.featured-item-sale {
+  background-color: var(--color-green-0);
+}
+
+.featured-item-delivery {
+  background-color: var(--color-yellow-1);
+}
+
+/* Popular */
+
+.popular-heading {
+  width: 940px;
+  height: 89px;
+  background-color: var(--color-grey-4);
+}
+
+.heading-blue h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--color-blue-2);
+  text-transform: uppercase;
+}
+
+/* Services */
+
+.main-service p,
+.service-text {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--color-black);
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+}
+
+.heading {
+    color: var(--color-black);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.button {
+    color: var(--color-white);
+    background-color: var(--color-blue-2);
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.button:active {
+    color: var(--color-blue-2);
+    background-color: var(--color-white);
+}
+
+.client-list {
+    list-style: none;
+    padding: 0;
+}
+
+.client-list-item {
+    color: var(--color-black);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Footer */
+
+.main-footer-nav {
+  background-color: var(--color-blue-2);
+}
+
+.footer-phone {
+  color: inherit;
+}
+
+.footer-links-bottom {
+  color: var(--color-yellow-0);
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links-bottom a {
+  color: inherit;
+}
+
+.footer-copyright,
+.footer-social,
+.footer-creators {
+  background-color: var(--color-blue-3);
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-social {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social-icon,
+.footer-creators a,
+.footer-copyright a {
+  color: inherit;
+}
