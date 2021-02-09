@@ -54,6 +54,10 @@ img {
   height: auto;
 }
 
+.hidden {
+  display: none;
+}
+
 .main-button {
   background-color: var(--color-red-0);
   color: var(--color-white);
