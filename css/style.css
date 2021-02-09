@@ -112,8 +112,11 @@ img {
 }
 
 .menu-bar-checkout {
-  color: inherit;
   background-color: var(--color-green-2);
+  padding: 9px;
+  padding-right: 16px;
+  padding-bottom: 9px;
+  padding-left: 19px;
 }
 
 .menu-bar-checkout:active {
