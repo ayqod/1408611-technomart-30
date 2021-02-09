@@ -113,7 +113,7 @@ img {
 
 .menu-bar-checkout {
   background-color: var(--color-green-2);
-  padding: 9px;
+  padding-top: 9px;
   padding-right: 16px;
   padding-bottom: 9px;
   padding-left: 19px;
@@ -200,8 +200,13 @@ img {
 }
 
 .featured-button {
-  color: inherit;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--tranparent-white);
+  width: 135px;
+  padding: 10px 0 10px;
+  /* Можно в таких сучаях сокращать написание паддинга? */
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
