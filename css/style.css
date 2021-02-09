@@ -313,6 +313,7 @@ img {
 
 .footer-links-top {
   list-style: none;
+  padding: 0;
 }
 
 .footer-links-bottom {
@@ -328,7 +329,6 @@ img {
 }
 
 .footer-copyright,
-.footer-social,
 .footer-creators {
   font-size: 16px;
   line-height: 18px;
