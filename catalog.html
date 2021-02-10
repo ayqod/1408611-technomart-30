@@ -13,38 +13,52 @@
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>Страница каталога товаров</h1>
-      <div class="header-logo">
-        <a href="./index.html" title="Главная страница Техномарт">
+      <div>
+        <a class="header-logo" href="./index.html" title="Главная страница Техномарт">
           <img src="https://via.placeholder.com/220x47" width="220" height="47" alt="Логотип сайта">
         </a>
       </div>
-
-      <form class="nav-searchbar" action="https://htmlacademy.ru" method="POST">
-        <label for="search">Поиск</label>
-        <input type="search" name="search" placeholder="Поиск:">
-      </form>
-
-      <nav>
-        <ul class="header-menu">
-          <li><a href="#">Закладки: 0</a></li>
-          <li><a href="#">Корзина: 10</a></li>
-          <li><a href="#">Оформить заказ</a></li>
-        </ul>
-      </nav>
+      <div class="menu-bar">
+        <form class="nav-searchbar" action="https://htmlacademy.ru" method="POST">
+          <label for="search">Поиск</label>
+          <input type="search" name="search" id="search" placeholder="Поиск:">
+        </form>
+        <nav>
+          <ul class="header-menu">
+            <li><a class="menu-bar-bookmark" href="#">Закладки: 0</a></li>
+            <li><a class="menu-bar-cart" href="#">Корзина: 10</a></li>
+            <li><a class="menu-bar-checkout" href="#">Оформить заказ</a></li>
+          </ul>
+        </nav>
+      </div>
 
       <section class="main-description">
-        <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-        <span class="header-phone">
-          <a href="tel:+7812550555">+7 (812) 55-05-55</a>
-        </span>
-        <address class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-        <ul>
-          <li><a href="#">Равшан Джамшутович</a></li>
-          <li><a href="#">Мои заказы</a></li>
-          <li><a href="#">Личный кабинет</a></li>
-        </ul>
+        <div class="menu-contact">
+          <h2 class="hidden">Связаться с нами</h2>
+          <p class="slogan">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+          <span class="header-phone">
+            <a class="header-phone" href="tel:+7812550555">+7 (812) 55-05-55</a>
+          </span>
+          <address class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+        </div>
+        <div class="user-login">
+          <h2 hidden>Навигация Пользователя</h2>
+          <a class="user-icon" href="#">
+            <span>svg icon here</span>
+          </a>
+          <a class="user-link" href="#" title="Равшан Джамшутович">
+            <span class="user-name">Равшан Джамшутович</span>
+          </a>
+          <a class="user-logout" href="#">
+            <span>svg icon here</span>
+          </a>
+          <div class="user-menu">
+            <a href="#">Мои заказы</a>
+            <a href="#">Личный кабинет</a>
+          </div>
+        </div>
       </section>
 
       <nav>
