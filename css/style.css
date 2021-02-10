@@ -143,10 +143,6 @@ img {
   line-height: 30px;
 }
 
-.header-phone::before {
-  /*добавить лого*/
-}
-
 .header-address {
   font-size: 14px;
   line-height: 24px;
