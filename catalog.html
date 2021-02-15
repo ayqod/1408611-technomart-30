@@ -45,75 +45,72 @@
         </div>
         <div class="user-login">
           <h2 hidden>Навигация Пользователя</h2>
-          <a class="user-icon" href="#">
-            <span>svg icon here</span>
-          </a>
+          <a class="user-icon" href="#"></a>
           <a class="user-link" href="#" title="Равшан Джамшутович">
             <span class="user-name">Равшан Джамшутович</span>
           </a>
-          <a class="user-logout" href="#">
-            <span>svg icon here</span>
-          </a>
-          <div class="user-menu">
-            <a href="#">Мои заказы</a>
-            <a href="#">Личный кабинет</a>
-          </div>
+          <a class="user-logout" href="#"></a>
+        </div>
+        <div class="user-menu">
+          <a class="user-links" href="#">Мои заказы</a>
+
+          <a class= "user-links" href="#">Личный кабинет</a>
         </div>
       </section>
 
-      <nav>
-        <h2>Основное меню сайта</h2>
-        <ul>
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Компания</a></li>
-          <li><a href="./catalog.html">Каталог</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Спецпредложения</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Контакты</a></li>
+      <nav class="main-header-nav">
+        <h2 class="hidden">Основное меню сайта</h2>
+        <ul class="header-nav-list">
+          <li><a class="nav-list-item" href="#">Главная</a></li>
+          <li><a class="nav-list-item" href="#">Компания</a></li>
+          <li><a class="nav-list-item" href="./catalog.html">Каталог</a></li>
+          <li><a class="nav-list-item" href="#">Новости</a></li>
+          <li><a class="nav-list-item" href="#">Спецпредложения</a></li>
+          <li><a class="nav-list-item" href="#">Доставка</a></li>
+          <li><a class="nav-list-item" href="#">Контакты</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <ol>
-        <li>
-          <a href="index.html">
+    <main class="catalog">
+      <ol class="breadcrumbs">
+        <li class="breadcrumb-item">
+          <a class="breadcrumb-home" href="index.html">
             <img src="https://via.placeholder.com/14x12" alt="home icon" width="14" height="12">
           </a>
         </li>
-        <li>
-          <a>Каталог</a>
+        <li class="breadcrumb-item">
+          <a class="breadcrumb-link">Каталог</a>
         </li>
-        <li>
-          <a>Инструмент</a>
+        <li class="breadcrumb-item">
+          <a class="breadcrumb-link">Инструмент</a>
         </li>
-        <li>
-          <p>Перфораторы</p>
+        <li class="breadcrumb-item">
+          <p class="breadcrumb-current">Перфораторы</p>
         </li>
       </ol>
 
-      <h1>Перфораторы</h1>
+      <h1 class="catalog-heading">Перфораторы</h1>
 
-      <section>
+      <section class="catalog-filters">
         <h2>Фильтр:</h2>
 
         <form method="GET" action="https://echo.htmlacademy.ru">
 
-          <fieldset>
+          <fieldset class="sorting-price">
             <legend>Цена:</legend>
             <label>
-              <input type="range" min="0" max="30000" step="10" value="25000" />
+              <input class="sorting -range" type="range" min="0" max="30000" step="10" value="25000" />
             </label>
             <label>
-              <input name="min-price" type="text" value="0" />
+              <input class="min-price" name="min-price" type="text" value="0" />
             </label>
             <label>
-              <input name="max-price" type="text" value="30000" />
+              <input class="max-price" name="max-price" type="text" value="30000" />
             </label>
           </fieldset>
 
-          <fieldset>
+          <fieldset  class="brand-filters">
             <legend>Производители:</legend>
             <ul>
               <li>
@@ -139,7 +136,9 @@
             </ul>
           </fieldset>
 
-          <fieldset>
+          <span class="separator-line">разделитель</span>
+
+          <fieldset class="power-filters">
             <legend>Питание:</legend>
             <ul>
               <li>
@@ -152,7 +151,7 @@
               </li>
             </ul>
           </fieldset>
-          <button type="submit">Показать</button>
+          <button class="catalog-button" type="submit">Показать</button>
         </form>
       </section>
 
