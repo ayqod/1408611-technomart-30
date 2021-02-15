@@ -286,6 +286,9 @@ img {
   line-height: 30px;
   color: var(--color-blue-2);
   text-transform: uppercase;
+
+  padding: 29px;
+  margin: 0;
 }
 
 .popular-list,
@@ -311,10 +314,19 @@ img {
 
 .heading {
     color: var(--color-black);
-    font-weight: 400;
     font-size: 30px;
     line-height: 30px;
     text-transform: uppercase;
+}
+
+.heading-blue {
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--color-blue-2);
+  text-transform: uppercase;
+
+  padding: 29px;
+  margin: 0;
 }
 
 .contacts-button {
@@ -390,4 +402,44 @@ img {
 .footer-social {
   list-style: none;
   padding: 0;
+}
+
+/* Breabcrumbs section */
+.breadcrumb-link {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+/* Catalog Filters */
+.catalog-heading {
+  background-color: var(--color-grey-1);
+  margin-bottom: 20px;
+}
+
+.catalog-filters {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: var(--color-grey-3);
+}
+
+.sorting-title {
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 30px;
+text-transform: uppercase;
+color: var(--color-black);
+}
+
+.min-price,
+.max-price {
+  font-size: 17px;
+  line-height: 18px;
+  background-color: inherit;
 }

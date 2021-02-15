@@ -86,11 +86,13 @@
           <a class="breadcrumb-link">Инструмент</a>
         </li>
         <li class="breadcrumb-item">
-          <p class="breadcrumb-current">Перфораторы</p>
+          <p class="breadcrumb-link breadcrumb-current">Перфораторы</p>
         </li>
       </ol>
 
-      <h1 class="catalog-heading">Перфораторы</h1>
+      <div class="catalog-heading">
+        <h1 class="heading-blue">Перфораторы</h1>
+      </div>
 
       <section class="catalog-filters">
         <h2>Фильтр:</h2>
@@ -98,7 +100,7 @@
         <form method="GET" action="https://echo.htmlacademy.ru">
 
           <fieldset class="sorting-price">
-            <legend>Цена:</legend>
+            <legend class="sorting-title">Цена:</legend>
             <label>
               <input class="sorting -range" type="range" min="0" max="30000" step="10" value="25000" />
             </label>
@@ -111,7 +113,7 @@
           </fieldset>
 
           <fieldset  class="brand-filters">
-            <legend>Производители:</legend>
+            <legend class="sorting-title">Производители:</legend>
             <ul>
               <li>
                 <input type="checkbox" name="Bosch" id="filter-BOSCH" checked>
@@ -139,7 +141,7 @@
           <span class="separator-line">разделитель</span>
 
           <fieldset class="power-filters">
-            <legend>Питание:</legend>
+            <legend class="sorting-title">Питание:</legend>
             <ul>
               <li>
                 <input type="radio" name="product-group" value="batteries" id="batteries">
