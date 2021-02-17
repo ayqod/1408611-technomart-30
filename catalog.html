@@ -115,23 +115,23 @@
           <fieldset  class="brand-filters">
             <legend class="sorting-title">Производители:</legend>
             <ul>
-              <li>
+              <li class="brand-name">
                 <input type="checkbox" name="Bosch" id="filter-BOSCH" checked>
                 <label for="filter-BOSCH">Bosch</label>
               </li>
-              <li>
+              <li class="brand-name">
                 <input type="checkbox" name="brands" value="Интерскол" id="filter-Интерскол">
                 <label for="filter-Интерскол">Интерскол</label>
               </li>
-              <li>
+              <li class="brand-name">
                 <input type="checkbox" name="Makita" id="filter-Makita" checked>
                 <label for="filter-Makita">Makita</label>
               </li>
-              <li>
+              <li class="brand-name">
                 <input type="checkbox" name="brands" value="Dewalt" id="filter-Dewalt">
                 <label for="filter-Dewalt">Dewalt</label>
               </li>
-              <li>
+              <li class="brand-name">
                 <input type="checkbox" name="brands" value="Hitachi" id="filter-Hitachi">
                 <label for="filter-Hitachi">Hitachi</label>
               </li>
@@ -143,11 +143,11 @@
           <fieldset class="power-filters">
             <legend class="sorting-title">Питание:</legend>
             <ul>
-              <li>
+              <li class="power-options">
                 <input type="radio" name="product-group" value="batteries" id="batteries">
                 <label for="batteries">Аккумуляторные</label>
               </li>
-              <li>
+              <li class="power-options">
                 <input type="radio" name="product-group" value="mains" id="mains" checked>
                 <label for="mains">Сетевые</label>
               </li>
@@ -293,7 +293,7 @@
       </section>
 
       <div class="catalog-pagination">
-        <h2>Пагинация</h2>
+        <h2 class="visually-hidden">Пагинация</h2>
         <ul class="pagination-list">
           <li class="pagination-item">
             <a class="pagination-link pagination-link-active" href="#">1</a>
@@ -311,8 +311,8 @@
       </div>
 
       <section class="about-item">
-        <h2>Пару слов о перфораторах</h2>
-        <p>
+        <h2 class="heading">Пару слов о перфораторах</h2>
+        <p class="about-item-text">
           Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления
           отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические
           перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного
