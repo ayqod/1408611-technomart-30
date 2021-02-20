@@ -51,6 +51,10 @@ body {
   font-weight: 400;
   color: var(--basic-black);
   background-color: var(--basic-white);
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
 }
 
 a {
@@ -61,6 +65,10 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.page {
+  height: 100%;
 }
 
 .hidden {
@@ -95,15 +103,40 @@ img {
 
 .main-header {
   background-color: var(--basic-bg);
+  display: grid;
+
+  margin-bottom: 70px;
+  outline: 5px solid rgba(0, 255, 0, 0.3);
+  outline-offset: -5px;
+}
+
+.caption {
+  display: grid;
+  grid-template-columns: 1fr 4fr min-content;
+  background-color: var(--color-blue-3);
+
+  color: var(--basic-white);
+  background-color: var(--color-blue-3);
 }
 
 .header-logo {
   background-color: var(--basic-red);
+  width: 220px;
+  height: 47px;
+  order: 1;
+  vertical-align: middle;
+
+  outline: 5px solid rgba(255, 0, 0, 0.3);
+  outline-offset: -5px;
 }
 
-.menu-bar {
-  color: var(--basic-white);
-  background-color: var(--color-blue-3);
+.menu-description {
+  outline: 5px solid rgba(255, 0, 255, 0.3);
+  outline-offset: -5px;
+
+  display: grid;
+    grid-template-columns: 300px 300px 140px 140px;
+    gap: 10px;
 }
 
 .header-logo:active {
@@ -203,10 +236,20 @@ img {
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
+
+  outline: 5px solid rgba(190, 235, 30, 0.3);
+  outline-offset: -5px;
 }
 
 .menu-contact{
   color: var(--color-blue-2);
+  outline: 5px solid rgba(183, 235, 61, 0.3);
+  outline-offset: -5px;
+}
+
+.header-menu-bar {
+  outline: 5px solid rgba(203, 241, 62, 0.3);
+  outline-offset: -5px;
 }
 
 
@@ -249,6 +292,9 @@ img {
   color: var(--basic-white);
   background-color: var(--color-blue-2);
   padding: 0;
+
+  outline: 5px solid rgba(255, 0, 255, 0.3);
+  outline-offset: -5px;
 }
 
 .nav-list-item {
@@ -413,6 +459,9 @@ img {
 .main-footer {
   background-color: var(--color-blue-3);
   color: var(--basic-white);
+
+  outline: 5px solid rgba(255, 0, 0, 0.7);
+  outline-offset: -5px;
 }
 
 .footer-phone {

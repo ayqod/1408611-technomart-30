@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
@@ -14,37 +14,38 @@
   </head>
   <body>
     <header class="main-header">
-      <h1>Интернет-магазин Техномарт</h1>
-      <div>
-        <a class="header-logo" href="./index.html" title="Главная страница Техномарт">
-          <img src="https://via.placeholder.com/220x47" width="220" height="47" alt="Логотип сайта">
-        </a>
+      <div class="caption">
+        <h1 class="hidden">Интернет-магазин Техномарт</h1>
+        <div>
+          <a class="header-logo" href="./index.html" title="Главная страница Техномарт">
+            <img src="https://via.placeholder.com/220x47" width="220" height="47" alt="Логотип сайта">
+          </a>
+        </div>
+
+        <div class="menu-bar">
+          <form class="nav-searchbar" action="https://htmlacademy.ru" method="POST">
+            <label for="search"></label>
+            <input type="search" name="search" id="search" placeholder="Поиск:">
+          </form>
+
+          <nav>
+            <ul class="header-menu">
+              <li><a class="menu-bar-bookmark" href="#">Закладки: 0</a></li>
+              <li><a class="menu-bar-cart" href="#">Корзина: 0</a></li>
+              <li><a class="menu-bar-checkout" href="#">Оформить заказ</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-
-      <div class="menu-bar">
-        <form class="nav-searchbar" action="https://htmlacademy.ru" method="POST">
-          <label for="search"></label>
-          <input type="search" name="search" id="search" placeholder="Поиск:">
-        </form>
-
-        <nav>
-          <ul class="header-menu">
-            <li><a class="menu-bar-bookmark" href="#">Закладки: 0</a></li>
-            <li><a class="menu-bar-cart" href="#">Корзина: 0</a></li>
-            <li><a class="menu-bar-checkout" href="#">Оформить заказ</a></li>
-          </ul>
-        </nav>
-      </div>
-
       <section class="menu-description">
-        <div class="menu-contact">
           <h2 class="hidden">Связаться с нами</h2>
           <p class="slogan">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-          <span>
-            <a class="header-phone" href="tel:+7812550555">+7 (812) 55-05-55</a>
-          </span>
-          <address class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-        </div>
+          <div class="menu-contact">
+            <span>
+              <a class="header-phone" href="tel:+7812550555">+7 (812) 55-05-55</a>
+            </span>
+            <address class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+          </div>
         <ul class="header-menu-bar">
           <li><a class="login" href="#">Войти</a></li>
           <li><a class="registration" href="#">Регистрация</a></li>
