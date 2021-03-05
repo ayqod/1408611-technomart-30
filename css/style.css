@@ -5,11 +5,11 @@
   --old-price: #A9A9A9;
   --footer-links: #FFD180;
   --basic-bg: #F1F5F7;
+  --filter-bg: #F7F3EC;
   --logo-border: #B52933;
 
   --color-grey-0: #eaeaea;
   --color-grey-2: #F2F6F8;
-  --color-grey-3: #F7F3EC;
   --color-grey-4: #F9F5F0;
   --color-grey-5: #C5C5C5;
   --color-blue-0: #3BBCE3;
@@ -618,6 +618,27 @@ img {
 
 /* Breabcrumbs section */
 
+.catalog-breadcrumbs {
+  grid-column: 1 / -1;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.breadcrumb-item {
+  margin-left: 40px;
+}
+
+.breadcrumb-current {
+  display: contents;
+}
+
 .breadcrumb-link {
   font-family: var(--font-ptsans);
   font-size: 13px;
@@ -627,11 +648,57 @@ img {
   color: var(--basic-black);
 }
 
+.breadcrumb-home {
+  content: url(../img/icons/icon-home.png);
+}
+
 /* Catalog Filters */
+
+.catalog-container {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  align-content: start;
+  margin-top: 16px;
+  margin-bottom: 60px
+}
 
 .catalog-heading {
   background-color: var(--basic-bg);
+  display: flex;
+  min-height: 89px;
   margin-bottom: 20px;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.sorting-heading,
+.filter-heading {
+  font-family: var(--font-ptsans);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: var(--filter-bg);
+}
+
+.filter-heading {
+  margin-top: 0;
+  padding: 10px;
+  padding-left: 18px;
+}
+
+.sorting-block {
+  display: grid;
+  grid-template-columns: 220px 1fr min-content;
+  background-color: var(--filter-bg);
+}
+
+.sorting-heading {
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 140px;
+  padding-bottom: 10px;
+  padding-left: 19px;
 }
 
 .brand-name,
@@ -682,7 +749,26 @@ img {
   list-style: none;
   background-color: var(--color-grey-3);
   font-size: 13px;
-  line-height: 18px;
+  line-height: 1px;
+
+  -webkit-text-decoration-style: dotted;
+    margin: 0 0 0 21px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-self: center;
+    width: 354px
+}
+
+.catalog-arrows {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 43px;
 }
 
 .sorting-item {
@@ -696,6 +782,9 @@ img {
 }
 
 .sorting-current {
+  text-decoration: none;
+
+  opacity: 1;
   color: var(--basic-red);
 }
 
@@ -710,6 +799,7 @@ img {
 }
 
 .products-sorting {
+  margin-left: 40px;
   font-family: var(--font-ptsans);
 }
 
