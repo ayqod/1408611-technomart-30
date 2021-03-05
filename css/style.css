@@ -659,7 +659,7 @@ img {
   grid-template-columns: 220px 1fr;
   align-content: start;
   margin-top: 16px;
-  margin-bottom: 60px
+  margin-bottom: 59px
 }
 
 .catalog-heading {
@@ -799,7 +799,7 @@ img {
 }
 
 .products-sorting {
-  margin-left: 40px;
+  margin-left: 21px;
   font-family: var(--font-ptsans);
 }
 
@@ -813,6 +813,12 @@ img {
   margin-left: 20px;
   margin-top: 28px;
   margin-bottom: 37px;
+}
+
+.pagination-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .item-title {
@@ -897,6 +903,7 @@ img {
   color: var(--basic-black);
   border: 1px solid var(--button-border);
   padding: 10px 15px;
+  margin-right: 10px;
 }
 
 .pagination-link-active {
@@ -906,11 +913,17 @@ img {
 
 /* About item description */
 
-.about-item {
+.about-item-container {
+
   background-color: var(--basic-bg);
+}
+
+.about-item {
+  padding: 65px 0 70px;
 }
 
 .about-item-text {
   font-family: var(--font-ptsans);
   font-size: 13px;
+  margin: 0;
 }
