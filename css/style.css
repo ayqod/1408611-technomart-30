@@ -5,6 +5,7 @@
   --old-price: #A9A9A9;
   --footer-links: #FFD180;
   --basic-bg: #F1F5F7;
+  --logo-border: #B52933;
 
   --color-grey-0: #eaeaea;
   --color-grey-2: #F2F6F8;
@@ -105,23 +106,27 @@ img {
 .main-header {
   background-color: var(--basic-bg);
   display: grid;
-  margin-bottom: 70px;
-  outline: 5px solid rgba(0, 255, 0, 0.3);
-  outline-offset: -5px;
 }
 
 .caption {
   display: grid;
-  grid-template-columns: 1fr 4fr min-content;
+  grid-template-columns: 220px 271px 150px 150px 150px;
   background-color: var(--color-blue-3);
   color: var(--basic-white);
-  background-color: var(--color-blue-3);
+}
+
+.caption .container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header-logo {
-  background-color: var(--basic-red);
   width: 220px;
-  height: 47px;
+  height: 42px;
+  grid-column-start: 1;
+  vertical-align: canter;
+  background-color: var(--basic-red);
+  box-shadow: 0 5px 0 0 var(--logo-border);
 }
 
 .menu-description {
@@ -130,8 +135,18 @@ img {
   gap: 10px;
 }
 
+.main-description {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
 .header-logo:active {
   background-color: var(--color-red-2);
+}
+
+.nav-searchbar {
+  position: relative;
+  align-self: center;
 }
 
 .nav-searchbar,
@@ -227,20 +242,12 @@ img {
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
-  outline: 5px solid rgba(190, 235, 30, 0.3);
-  outline-offset: -5px;
 }
 
 .menu-contact{
   color: var(--color-blue-2);
-  outline: 5px solid rgba(183, 235, 61, 0.3);
-  outline-offset: -5px;
 }
 
-.header-menu-bar {
-  outline: 5px solid rgba(203, 241, 62, 0.3);
-  outline-offset: -5px;
-}
 
 .contact-info  {
   color:var(--footer-top-link__active);
@@ -277,16 +284,20 @@ img {
 }
 
 .header-nav-list {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  min-height: 60px;
   color: var(--basic-white);
   background-color: var(--color-blue-2);
   padding: 0;
-  outline: 5px solid rgba(255, 0, 255, 0.3);
-  outline-offset: -5px;
 }
 
 .nav-list-item {
-  color: inherit;
+  display: block;
+  padding: 18px 28px;
+  text-decoration: none;
+  color: var(--basic-white);
 }
 
 .nav-list-item:hover {

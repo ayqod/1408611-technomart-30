@@ -13,29 +13,19 @@
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header container">
       <div class="caption">
         <h1 class="hidden">Интернет-магазин Техномарт</h1>
-        <div>
-          <a class="header-logo" href="./index.html" title="Главная страница Техномарт">
-            <img src="https://via.placeholder.com/220x47" width="220" height="47" alt="Логотип сайта">
-          </a>
-        </div>
-
-        <div class="menu-bar">
-          <form class="nav-searchbar" action="https://htmlacademy.ru" method="POST">
-            <label for="search"></label>
-            <input type="search" name="search" id="search" placeholder="Поиск:">
-          </form>
-
-          <nav>
-            <ul class="header-menu">
-              <li><a class="menu-bar-bookmark" href="#">Закладки: 0</a></li>
-              <li><a class="menu-bar-cart" href="#">Корзина: 0</a></li>
-              <li><a class="menu-bar-checkout" href="#">Оформить заказ</a></li>
-            </ul>
-          </nav>
-        </div>
+        <a class="header-logo" href="./index.html" title="Главная страница Техномарт">
+          <img src="/img/logo-technomart.svg" width="108" height="18" alt="Логотип сайта">
+        </a>
+        <form class="nav-searchbar" action="https://htmlacademy.ru" method="POST">
+          <label for="search"></label>
+          <input type="search" name="search" id="search" placeholder="Поиск:">
+        </form>
+        <div class="menu-bar-bookmark"><a class="menu-bar-bookmark-link" href="#">Закладки: 0</a></div>
+        <div class="menu-bar-cart"><a class="menu-bar-cart-link" href="#">Корзина: 0</a></div>
+        <div class="menu-bar-checkout"><a class="menu-bar-checkout-link" href="#">Оформить заказ</a></div>
       </div>
       <section class="menu-description">
           <h2 class="hidden">Связаться с нами</h2>
