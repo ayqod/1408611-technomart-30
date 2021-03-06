@@ -5,6 +5,7 @@
   --old-price: #A9A9A9;
   --footer-links: #FFD180;
   --basic-bg: #F1F5F7;
+  --navigation-bg: #293449;
   --filter-bg: #F7F3EC;
   --logo-border: #B52933;
 
@@ -15,7 +16,6 @@
   --color-blue-0: #3BBCE3;
   --color-blue-1: #3D546F;
   --color-blue-2: #32425C;
-  --color-blue-3: #293449;
   --color-blue-4: #212A3A;
   --color-blue-5:#1D2739;
   --color-red-1: #CA2C37;
@@ -104,14 +104,19 @@ img {
 /* Main navigation */
 
 .main-header {
-  background-color: var(--basic-bg);
   display: grid;
+  background-color: var(--basic-bg);
+}
+
+.caption-block {
+  background-color: var(--navigation-bg);
+  width: 100%;
 }
 
 .caption {
   display: grid;
   grid-template-columns: 220px 271px 150px 150px 150px;
-  background-color: var(--color-blue-3);
+  background-color: var(--navigation-bg);
   color: var(--basic-white);
 }
 
@@ -121,11 +126,11 @@ img {
 }
 
 .header-logo {
-  width: 220px;
-  height: 42px;
-  grid-column-start: 1;
-  vertical-align: canter;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
   background-color: var(--basic-red);
+  align-self: center;
   box-shadow: 0 5px 0 0 var(--logo-border);
 }
 
@@ -137,7 +142,7 @@ img {
 
 .main-description {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .header-logo:active {
@@ -288,9 +293,10 @@ img {
   flex-wrap: wrap;
   list-style: none;
   min-height: 60px;
+  margin-bottom: 60px;
   color: var(--basic-white);
   background-color: var(--color-blue-2);
-  padding: 0;
+  padding: 0 25px;
 }
 
 .nav-list-item {
@@ -649,7 +655,7 @@ img {
 }
 
 .breadcrumb-home {
-  content: url(../img/icons/icon-home.png);
+  content: url("../img/icons/icon-home.png");
 }
 
 /* Catalog Filters */
