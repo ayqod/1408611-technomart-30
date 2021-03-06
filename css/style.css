@@ -176,6 +176,38 @@ img {
   align-self: center;
 }
 
+.menu-bar-bookmark-link {
+  display: block;
+  position: relative;
+
+  padding-top: 9px;
+  padding-right: 24px;
+  padding-bottom: 9px;
+  padding-left: 43px;
+}
+
+.menu-bar-bookmark-link::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/icons/icon-bookmark.png");
+
+  top: 12px;
+  left: 20px;
+  width: 14px;
+  height: 16px;
+}
+
+.menu-bar-cart::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/icons/icon-cart.png");
+
+  top: 12px;
+  left: 20px;
+  width: 14px;
+  height: 16px;
+}
+
 .nav-searchbar,
 .menu-bar-bookmark,
 .menu-bar-cart {
@@ -202,11 +234,11 @@ img {
 }
 
 .menu-bar-cart {
-  background-color: var(--basic-red);
+  position: relative;
   padding-top: 9px;
-  padding-right: 21px;
+  padding-right: 26px;
   padding-bottom: 9px;
-  padding-left: 35px;
+  padding-left: 43px;
 }
 
 .menu-bar-checkout:active {
