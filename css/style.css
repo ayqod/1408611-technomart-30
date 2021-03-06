@@ -159,6 +159,8 @@ img {
 .menu-description {
   display: grid;
   grid-template-columns: 300px 300px 140px 140px;
+  padding-top: 42px;
+  padding-bottom: 42px;
   gap: 10px;
 }
 
@@ -297,10 +299,12 @@ img {
 /* Header contacts */
 
 .slogan {
-  color: var(--basic-red);
-  font-style: italic;
+  width: 200px;
+  padding-left: 30px;
   font-size: 16px;
   line-height: 23px;
+  color: var(--basic-red);
+  font-style: italic;
 }
 
 .menu-contact{
@@ -351,6 +355,7 @@ img {
   color: var(--basic-white);
   background-color: var(--color-blue-2);
   padding: 0 25px;
+  margin-top: 0;
 }
 
 .nav-list-item {
