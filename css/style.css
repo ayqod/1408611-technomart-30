@@ -64,6 +64,10 @@ img {
   height: auto;
 }
 
+::placeholder {
+  color: var(--basic-white);
+}
+
 .container {
   width: 940px;
   margin: 0 auto;
@@ -132,6 +136,24 @@ img {
   background-color: var(--basic-red);
   align-self: center;
   box-shadow: 0 5px 0 0 var(--logo-border);
+}
+
+.nav-searchbar::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/icons/icon-search.png");
+  background-repeat: no-repeat;
+  top: 12px;
+  left: 17px;
+  padding-right: 17px;
+  height: 17px;
+}
+
+.header-search-input {
+  background-color: var(--navigation-bg);
+  border: 0;
+  padding: 9px 0 9px 42px;
+  color: var(--basic-white);
 }
 
 .menu-description {

@@ -13,23 +13,25 @@
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
-    <header class="main-header container">
-      <div class="caption">
-        <h1 class="hidden">Интернет-магазин Техномарт</h1>
-        <a class="header-logo" href="./index.html" title="Главная страница Техномарт">
-          <img src="/img/logo-technomart.svg" width="108" height="18" alt="Логотип сайта">
-        </a>
-        <form class="nav-searchbar" action="https://htmlacademy.ru" method="POST">
-          <label for="search">
-            <input type="search" name="search" id="search" placeholder="Поиск:">
-          </label>
-        </form>
-        <div class="menu-bar-bookmark"><a class="menu-bar-bookmark-link" href="#">Закладки: 0</a></div>
+    <header class="main-header">
+      <div class="caption-block">
+        <div class="caption container">
+          <h1 class="hidden">Интернет-магазин Техномарт</h1>
+          <a class="header-logo" href="./index.html" title="Главная страница Техномарт">
+            <img src="/img/logo-technomart.svg" width="108" height="18" alt="Логотип сайта">
+          </a>
+          <form class="nav-searchbar" action="https://htmlacademy.ru" method="POST">
+            <label for="search">
+              <input class="header-search-input" type="search" name="search" id="search" placeholder="Поиск:">
+            </label>
+          </form>
+          <div class="menu-bar-bookmark"><a class="menu-bar-bookmark-link" href="#">Закладки: 0</a></div>
         <div class="menu-bar-cart"><a class="menu-bar-cart-link" href="#">Корзина: 0</a></div>
         <div class="menu-bar-checkout"><a class="menu-bar-checkout-link" href="#">Оформить заказ</a></div>
+        </div>
       </div>
 
-      <section class="main-description">
+      <section class="main-description container">
         <div class="menu-contact">
           <h2 class="hidden">Связаться с нами</h2>
           <p class="slogan">Интернет-магазин строительных материалов и инструментов для ремонта</p>
@@ -54,7 +56,7 @@
         </div>
       </section>
 
-      <nav class="main-header-nav">
+      <nav class="main-header-nav container">
         <h2 class="hidden">Основное меню сайта</h2>
         <ul class="header-nav-list">
           <li><a class="nav-list-item" href="#">Главная</a></li>
