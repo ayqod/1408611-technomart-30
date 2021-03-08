@@ -103,6 +103,7 @@ img {
   align-self: center;
   min-width: 144px;
   padding: 10px 24px;
+  margin-right: 14px;
 }
 
 /* Main navigation */
@@ -400,30 +401,49 @@ img {
 .featured-grid {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, min-content);
+  grid-template-rows: repeat(2, min-content);
+  gap: 18px;
 }
 
 .featured-item {
-  width: 300px;
-  height: 123px;
   color: var(--basic-white);
+  position: relative;
+  min-height: 123px;
+}
+
+.featured-item-slider {
+  grid-column: 1/3;
+  grid-row: 2/4;
+  height: 266px;
+}
+
+.slider-button {
+  position: absolute;
+}
+
+.slider-heading {
+  position: absolute
+  ;
 }
 
 .featured-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
+  margin: 20px 0 14px 23px;
 }
 
 .featured-button {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 22px;
   background-color: var(--tranparent-white);
-  width: 135px;
-  padding: 10px 0 10px;
+  min-width: 135px;
+  padding: 10px 24px 10px 23px;
   /* Можно в таких сучаях сокращать написание паддинга? */
   font-size: 14px;
   line-height: 18px;
@@ -454,6 +474,7 @@ img {
 
 .popular-products {
   display: grid;
+  margin-top: 59px;
 }
 
 .popular-brands {
@@ -483,7 +504,8 @@ img {
   line-height: 30px;
   color: var(--color-blue-2);
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin: 0;
+  padding: 29px 0 30px 28px;
 }
 
 .popular-list,
