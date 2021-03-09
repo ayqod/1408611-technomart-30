@@ -689,6 +689,10 @@ img {
 
 .footer-nav-bottom {
   background-color: var(--navigation-bg);
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-white);
+  font-family: var(--font-cuprum);
 }
 
 .footer-nav-wrap {
@@ -711,6 +715,7 @@ img {
 }
 
 .footer-logo {
+  cursor: pointer;
   width: 220px;
   background: url(../img/logo-technomart.svg) var(--basic-red) no-repeat center;
   height: 63px;
@@ -739,11 +744,6 @@ img {
 }
 
 .footer-references-block {
-  font-size: 16px;
-  line-height: 18px;
-  color: var(--basic-white);
-  font-family: var(--font-cuprum);
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -777,6 +777,11 @@ img {
   text-decoration: none;
 }
 
+.footer-creators {
+  display: flex;
+  width: 300px;
+}
+
 .footer-copyright,
 .footer-creators {
   font-size: 16px;
@@ -785,8 +790,19 @@ img {
 }
 
 .footer-social {
+  display: flex;
   list-style: none;
   padding: 0;
+}
+
+.footer-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: var(--color-blue-4);
 }
 
 /* Breabcrumbs section */
