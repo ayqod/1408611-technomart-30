@@ -544,6 +544,21 @@ img {
 
 /* Services */
 
+.main-service {
+  background-color: var(--basic-bg);
+  margin-top: 70px;
+  display: grid;
+  grid-template-rows: 1fr 1.5fr;
+  row-gap: 50px;
+}
+
+.service-block {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 80px;
+  position: relative;
+}
+
 .service-text {
   font-family: var(--font-ptsans);
   font-weight: 400;
@@ -551,6 +566,19 @@ img {
   line-height: 24px;
   color: var(--basic-black);
   max-width: 400px;
+}
+
+.service-info-text {
+  width: 280px;
+}
+
+.service-info-item::before{
+  content: url(../img/layer-delivery.png);
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+  top: 5%;
+  height: 236px;
 }
 
 .service-list,
@@ -561,6 +589,7 @@ img {
 
 .service-list {
   display: grid;
+
 }
 
 .service-item {
