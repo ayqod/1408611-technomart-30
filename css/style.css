@@ -620,15 +620,17 @@ img {
   text-transform: uppercase;
 }
 
+.contacts-info {
+  margin: 0;
+}
+
 .contacts-map {
   max-width: 300px;
+  margin: 25px 0;
 }
 
 .contacts-button {
-  padding-top: 11px;
-  padding-right: 61.12px;
-  padding-bottom: 9px;
-  padding-left: 61.88px;
+  display: block;
 }
 
 .credits-button {
