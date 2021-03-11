@@ -260,7 +260,7 @@ img {
   position: absolute;
   width: 20px;
   height: 18px;
-  background-image: url("/img/icons/icon-user.png");
+  background-image: url("../img/icons/icon-user.png");
 }
 
 .user-name {
@@ -280,7 +280,7 @@ img {
   left: 280px;
   width: 20px;
   height: 17px;
-  background-image: url("/img/icons/icon-login.png");
+  background-image: url("../img/icons/icon-login.png");
 }
 
 .user-links {
@@ -415,8 +415,7 @@ img {
 }
 
 .slider-heading {
-  position: absolute
-  ;
+  position: absolute;
 }
 
 .featured-title {
@@ -563,7 +562,7 @@ img {
 }
 
 .service-info-item::before{
-  content: url(../img/layer-delivery.png);
+  content: url("../img/layer-delivery.png");
   position: absolute;
   overflow: hidden;
   right: 0;
@@ -706,7 +705,10 @@ img {
 .footer-logo {
   cursor: pointer;
   width: 220px;
-  background: url(../img/logo-technomart.svg) var(--basic-red) no-repeat center;
+  background-image: url("../img/logo-technomart.svg");
+  background-color: var(--basic-red);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 63px;
   box-shadow: 0 5px 0 0 var(--logo-border);
   background-size: 60%;
@@ -724,8 +726,17 @@ img {
   margin: 33px 0 0 20px;
 }
 
-.footer-nav-wrap ul li:not(:first-child) {
+/* .footer-nav-wrap ul li:not(:first-child) {
   padding-left: 58px;
+} */
+
+.footer-top-links,
+.footer-bottom-links {
+  padding-left: 58px;
+}
+
+.footer-links-no-padding {
+  padding: 0;
 }
 
 .footer-phone {
@@ -1034,7 +1045,7 @@ img {
 }
 
 .item-price-discount {
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: var(--font-ptsans);
   font-weight: 700;
   font-size: 17px;
   line-height: 18px;
