@@ -308,45 +308,34 @@ img {
   font-style: italic;
 }
 
-.menu-contact{
-  color: var(--footer-top-bg);
-}
-
-
 .contact-info  {
   color:var(--footer-top-link__active);
   margin: 30px 0 0 5px;
 }
 
 .header-phone {
-  position: relative;
-  color: var(--basic-red);
+  display: block;
+  width: 264px;
+  border: 3px var(--basic-white) solid;
   font-weight: 700;
   font-size: 21px;
   line-height: 30px;
-
-  border: 3px solid var(--basic-white);
-  padding-top: 7px;
-  padding-right: 45px;
-  padding-bottom: 8px;
-  padding-left: 74px;
-  display: block;
+  color: var(--basic-red);
+  text-align: center;
+  background: url("../img/icons/icon-phone.png") no-repeat 39px center;
+  padding-left: 25px;
+  padding: 4px 0 5px;
 }
 
-.header-phone::before {
-  content: "";
-  position: absolute;
-  background-image: url("../img/icons/icon-phone.png");
-  background-repeat: no-repeat;
-  top: 13px;
-  left: 39px;
-  width: 19px;
-  height: 19px;
+.menu-contact{
+  color: var(--footer-top-bg);
+  width: 270px;
 }
 
 .header-address {
   font-size: 14px;
   line-height: 24px;
+  margin-top: 3px;
   text-align: center;
   font-style: inherit;
 }
