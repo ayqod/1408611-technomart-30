@@ -246,10 +246,10 @@ img {
 }
 
 .user-login {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: end;
 }
 
 .login-wrapper {
@@ -266,7 +266,7 @@ img {
 
 .user-logout {
   margin-left: 19px;
-    margin-right: 18px;
+  margin-right: 18px;
 }
 
 .user-name {
