@@ -514,7 +514,8 @@ img {
   margin: 0;
 }
 
-.popular-item {
+.popular-item,
+.catalog-item {
   border: var(--item-border) 1px solid;
   width: 220px;
   min-height: 318px;
@@ -828,6 +829,10 @@ img {
 .catalog-breadcrumbs {
   grid-column: 1 / -1;
   margin: 15px;
+}
+
+.catalog-item-actions {
+  display: none;
 }
 
 .breadcrumbs {
