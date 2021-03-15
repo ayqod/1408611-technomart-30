@@ -422,6 +422,13 @@ img {
   min-height: 123px;
 }
 
+.featured-item-icon {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-55%,-50%);
+}
+
 .featured-item-slider {
   grid-column: 1/3;
   grid-row: 2/4;
