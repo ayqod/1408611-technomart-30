@@ -627,7 +627,14 @@ img {
 
 .service-list {
   display: grid;
+  position: relative;
+}
 
+.service-list::after {
+  content: url("../img/icons/Object.svg");
+  position: absolute;
+  right: 0;
+  transform: translateY(-50px);
 }
 
 .service-item {
