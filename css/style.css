@@ -631,7 +631,7 @@ img {
 }
 
 .service-list::after {
-  content: url("../img/icons/object.svg");
+  content: url("../img/icons/object.png");
   position: absolute;
   right: 0;
   transform: translateY(-50px);
