@@ -529,6 +529,12 @@ img {
   box-sizing: border-box;
 }
 
+.popular-item-new {
+  transform: rotate(45deg);
+  top: 7px;
+  right: -28px;
+}
+
 .popular-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -548,6 +554,7 @@ img {
   text-align: center;
   box-sizing: border-box;
   position: relative;
+  overflow: hidden;
 }
 
 .popular-heading {
