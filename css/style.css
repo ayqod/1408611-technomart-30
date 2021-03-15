@@ -420,6 +420,7 @@ img {
   color: var(--basic-white);
   position: relative;
   min-height: 123px;
+  overflow: hidden;
 }
 
 .featured-item-icon {
@@ -427,6 +428,35 @@ img {
   top: 50%;
   left: 75%;
   transform: translate(-55%,-50%);
+}
+
+.featured-item-new {
+  position: absolute;
+  transform: translate(226px,-58px) rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+
+.featured-button {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 22px;
+  background-color: var(--tranparent-white);
+  min-width: 135px;
+  padding: 10px 24px 10px 23px;
+  /* Можно в таких сучаях сокращать написание паддинга? */
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
 .featured-item-slider {
@@ -448,20 +478,6 @@ img {
   font-weight: 700;
   line-height: 30px;
   margin: 20px 0 14px 23px;
-}
-
-.featured-button {
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-  left: 22px;
-  background-color: var(--tranparent-white);
-  min-width: 135px;
-  padding: 10px 24px 10px 23px;
-  /* Можно в таких сучаях сокращать написание паддинга? */
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
 }
 
 .featured-item-materials {
