@@ -1084,6 +1084,21 @@ img {
   border-radius: 5px;
 }
 
+/* .brand-filters-list input {
+  display: none;
+} */
+
+.brand-checkbox {
+  position: relative;
+  cursor: pointer;
+}
+
+.brand-checkbox::before {
+  content: url("../img/icons/checkbox-on.svg");
+  position: absolute;
+  left: 0;
+}
+
 .brand-filters-list,
 .power-filters-list {
   list-style: none;
