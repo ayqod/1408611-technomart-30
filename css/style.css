@@ -29,6 +29,7 @@
   --color-green-2: #63A63E;
   --color-green-3: #518534;
   --button-border: #E5E5E5;
+  --sorting-empty-bar: #D7DCDE;
   --tranparent-white: rgba(255,255,255,0.3);
   --tranparent-extra-neutral: rgba(197,197,197,0.3);
   --tranparent-extra-light: rgba(197,197,197,0.5);
@@ -959,6 +960,17 @@ img {
   display: grid;
   grid-template-columns: 220px 1fr min-content;
   background-color: var(--filter-bg);
+}
+
+.range-space {
+  height: 2px;
+  background-color: var(--sorting-empty-bar);
+}
+
+.range-space-bar {
+  width: 80%;
+  height: 2px;
+  background-color: var(--color-green-1);
 }
 
 .sorting-heading {
