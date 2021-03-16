@@ -104,15 +104,17 @@
           <form method="GET" action="https://echo.htmlacademy.ru">
             <fieldset class="sorting-price">
               <legend class="sorting-title">Цена:</legend>
-              <label>
-                <input class="sorting -range" type="range" min="0" max="30000" step="10" value="25000" />
-              </label>
-              <label>
-                <input class="min-price" name="min-price" type="text" value="0" />
-              </label>
-              <label>
-                <input class="max-price" name="max-price" type="text" value="30000" />
-              </label>
+              <div class="sorting-price-range">
+                <label>
+                  <input class="sorting -range" type="range" min="0" max="30000" step="10" value="25000" />
+                </label>
+              </div>
+                <label>
+                  <input class="min-price" name="min-price" type="text" value="0" />
+                </label>
+                <label>
+                  <input class="max-price" name="max-price" type="text" value="30000" />
+                </label>
             </fieldset>
 
             <fieldset  class="brand-filters">

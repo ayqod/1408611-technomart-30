@@ -1014,6 +1014,23 @@ img {
   padding-top: 16px;
 }
 
+.sorting-price,
+.min-price, .max-price {
+  border: none;
+  padding: 0;
+}
+
+.sorting-price-range {
+  position: relative;
+  height: 33px;
+  margin-bottom: 15px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: var(--filter-bg);
+  border-radius: 5px;
+}
+
 .brand-filters-list,
 .power-filters-list {
   list-style: none;
