@@ -973,16 +973,23 @@ img {
   background-color: var(--color-green-1);
 }
 
-.range-button {
-
-}
-
 .sorting-heading {
   margin: 0;
   padding-top: 10px;
   padding-right: 140px;
   padding-bottom: 10px;
   padding-left: 19px;
+}
+
+.range-filter-input {
+  width: 95px;
+  border: none;
+  text-align: center;
+  font-size: 17px;
+  line-height: 18px;
+  font-family: var(--font-ptsans);
+  background-color: var(--color-grey-4);
+  padding: 10px 0 10px;
 }
 
 .brand-filters,
@@ -1030,10 +1037,13 @@ img {
   padding-top: 16px;
 }
 
-.sorting-price,
-.min-price, .max-price {
+.sorting-price {
   border: none;
   padding: 0;
+}
+
+.filter-divider {
+  padding: 0 5px;
 }
 
 .range-button {
@@ -1073,14 +1083,6 @@ img {
   list-style: none;
     padding: 0;
     margin: 0;
-}
-
-.min-price,
-.max-price {
-  font-size: 17px;
-  line-height: 18px;
-  background-color: inherit;
-  background-color: var(--color-grey-3);
 }
 
 /* Products Sorting */
