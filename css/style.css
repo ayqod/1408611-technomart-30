@@ -982,6 +982,7 @@ img {
 }
 
 .range-filter-input {
+  position: relative;
   width: 95px;
   border: none;
   text-align: center;
@@ -990,6 +991,11 @@ img {
   font-family: var(--font-ptsans);
   background-color: var(--color-grey-4);
   padding: 10px 0 10px;
+}
+
+.range-price-divider::before {
+  content: "\2015";
+  padding-right: 3px;
 }
 
 .brand-filters,
