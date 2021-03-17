@@ -1004,13 +1004,15 @@ img {
   border-bottom: none;
 }
 
-.brand-name {
+.brand-name,
+.power-filters {
   margin-bottom: 20px;
 }
 
 .brand-name,
 .power-options {
   list-style: none;
+  margin-bottom: 15px;
 }
 
 .catalog-filters {
@@ -1039,6 +1041,10 @@ img {
   line-height: 30px;
   text-transform: uppercase;
   padding-top: 16px;
+}
+
+.power-filters-title {
+  padding-bottom: 23px;
 }
 
 .sorting-price {
@@ -1088,7 +1094,8 @@ img {
   border-radius: 5px;
 }
 
-.brand-filters-list input {
+.brand-filters-list input,
+.power-filters-list input {
   display: none;
 }
 
@@ -1103,9 +1110,33 @@ img {
 }
 
 .brand-checkbox::before {
-  content: url("../img/icons/checkbox-on.svg");
+  content: url("../img/icons/checkbox-off.svg");
   position: absolute;
   left: -38px;
+}
+
+.brand-name input:checked+label::before {
+  content: url("../img/icons/check-on.svg");
+}
+
+.power-filters input:checked+label::before {
+  content: url("../img/icons/radio-on.svg");
+}
+
+.power-filters label {
+  font-family: var(--font-ptsans);
+  font-size: 15px;
+  line-height: 19px;
+  text-transform: uppercase;
+  position: relative;
+  padding: 5px 0 5px 30px;
+}
+
+.power-filters-list label::before {
+  content: url("../img/icons/radio-off.svg");
+  position: absolute;
+  left: 0;
+  opacity: 0.7;
 }
 
 .power-filters-list {
