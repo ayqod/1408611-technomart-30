@@ -1081,6 +1081,18 @@ img {
   height: 4px;
 }
 
+.range-price-divider {
+  position: relative;
+}
+
+.range-price-divider::before {
+  content: "\2015";
+  padding-right: 3px;
+  top: 12px;
+  right: -9px;
+  position: absolute;
+}
+
 .range-button-min {
   left: 8%;
 }
