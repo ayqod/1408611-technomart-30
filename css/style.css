@@ -1133,11 +1133,11 @@ img {
   left: -38px;
 }
 
-.brand-name input:checked+label::before {
+.brand-name input:checked + label::before {
   content: url("../img/icons/check-on.svg");
 }
 
-.power-filters input:checked+label::before {
+.power-filters input:checked + label::before {
   content: url("../img/icons/radio-on.svg");
 }
 
