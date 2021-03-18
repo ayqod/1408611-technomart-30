@@ -142,6 +142,10 @@ img {
   box-shadow: 0 5px 0 0 var(--logo-border);
 }
 
+.menu-bar-cart-link {
+  margin-left: 5px;
+}
+
 .nav-searchbar::before {
   content: "";
   position: absolute;
@@ -202,9 +206,8 @@ img {
   content: "";
   position: absolute;
   background-image: url("../img/icons/icon-cart.png");
-
-  top: 12px;
-  left: 20px;
+  top: 13px;
+  left: 25px;
   width: 14px;
   height: 16px;
 }
