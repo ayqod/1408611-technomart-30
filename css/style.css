@@ -452,8 +452,8 @@ img {
 
 .featured-item-icon {
   position: absolute;
-  top: 50%;
-  left: 75%;
+  top: 51%;
+  left: 78%;
   transform: translate(-55%,-50%);
 }
 
@@ -470,6 +470,7 @@ img {
   text-transform: uppercase;
   color: var(--basic-white);
   background-color: var(--basic-red);
+  top: 67px;
 }
 
 .featured-button {
