@@ -167,8 +167,8 @@ img {
 .menu-description {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 42px;
-  padding-bottom: 42px;
+  padding-top: 28px;
+  padding-bottom: 21px;
   gap: 10px;
 }
 
@@ -334,8 +334,6 @@ img {
 }
 
 .header-phone {
-  display: block;
-  width: 264px;
   border: 3px var(--basic-white) solid;
   font-weight: 700;
   font-size: 21px;
@@ -343,21 +341,20 @@ img {
   color: var(--basic-red);
   text-align: center;
   background: url("../img/icons/icon-phone.png") no-repeat 39px center;
-  padding-left: 25px;
-  padding: 4px 0 5px;
+  padding-bottom: 7px 45px 8px 74px;
 }
 
 .menu-contact{
   color: var(--footer-top-bg);
-  width: 270px;
+  margin-top: 25px;
 }
 
 .header-address {
   font-size: 14px;
   line-height: 24px;
-  margin-top: 3px;
-  text-align: center;
+  margin-top: 11px;
   font-style: inherit;
+  padding-left: 13px;
 }
 
 .header-menu,
