@@ -436,7 +436,7 @@ img {
 .featured-grid {
   list-style: none;
   padding: 0;
-  margin-top: 59px;
+  margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, min-content);
@@ -522,6 +522,7 @@ img {
   margin: 0;
   top: 66px;
   left: 24px;
+  font-size: 18px;
 }
 
 .featured-title {
