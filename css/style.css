@@ -520,9 +520,10 @@ img {
 .slider-subtitle {
   position: absolute;
   margin: 0;
-  top: 66px;
+  top: 67px;
   left: 24px;
   font-size: 18px;
+  font-weight: 400;
 }
 
 .featured-title {
