@@ -341,7 +341,7 @@ img {
   color: var(--basic-red);
   text-align: center;
   background: url("../img/icons/icon-phone.png") no-repeat 39px center;
-  padding-bottom: 7px 45px 8px 74px;
+  padding: 7px 45px 8px 74px;
 }
 
 .menu-contact{
