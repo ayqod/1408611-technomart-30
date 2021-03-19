@@ -409,7 +409,7 @@ img {
 .featured-grid {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-top: 59px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, min-content);
