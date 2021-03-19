@@ -362,11 +362,37 @@ img {
   list-style: none;
 }
 
+.header-menu-bar {
+  /* display: flex; */
+  justify-self: end;
+  padding-top: 21px;
+}
+
 .login,
 .registration {
   color: var(--basic-black);
   font-size: 21px;
   line-height: 21px;
+  height: 45px;
+  text-align: center;
+  background-color: var(--basic-white);
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 10px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.login {
+  width: 121px;
+  padding-right: 13px;
+  margin-right: 4px;
+}
+
+.registration {
+  width: 150px;
+  padding-left: 6px;
 }
 
 /* Website main navigation */
