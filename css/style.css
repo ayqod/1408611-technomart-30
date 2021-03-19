@@ -388,11 +388,11 @@ img {
   width: 121px;
   padding-right: 13px;
   margin-right: 4px;
+  margin-top: -1px;
 }
 
 .registration {
-  width: 150px;
-  padding-left: 6px;
+  padding: 9px 23px;
 }
 
 /* Website main navigation */
