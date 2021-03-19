@@ -635,7 +635,8 @@ img {
   color: var(--footer-top-bg);
   text-transform: uppercase;
   margin: 0;
-  padding: 29px 0 30px 28px;
+  padding: 32px 0 28px 28px;
+  font-weight: 400;
 }
 
 .popular-list,
