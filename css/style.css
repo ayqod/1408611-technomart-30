@@ -485,6 +485,7 @@ img {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .featured-item-slider {
@@ -505,7 +506,7 @@ img {
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
-  margin: 20px 0 14px 23px;
+  margin: 23px 0 15px 25px;
 }
 
 .featured-item-materials {
