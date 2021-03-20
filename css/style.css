@@ -619,7 +619,6 @@ img {
 
 .item-info {
   display: flex;
-  display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
@@ -1318,8 +1317,8 @@ img {
 }
 
 .item-photo {
-  width: 165px;
-  height: 165px;
+  width: 184px;
+  height: 164px;
 }
 
 .item-discount {
