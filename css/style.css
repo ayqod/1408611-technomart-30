@@ -168,7 +168,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-top: 28px;
-  padding-bottom: 21px;
+  padding-bottom: 22px;
   gap: 10px;
 }
 
@@ -635,7 +635,7 @@ img {
   color: var(--footer-top-bg);
   text-transform: uppercase;
   margin: 0;
-  padding: 32px 0 28px 28px;
+  padding: 31px 0 28px 28px;
   font-weight: 400;
 }
 
@@ -1324,6 +1324,7 @@ img {
 }
 
 .item-price {
+  position: relative;
   background-color: var(--basic-red);
   color: var(--basic-white);
   width: 141px;
@@ -1335,6 +1336,7 @@ img {
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;
+  border-radius: 5px;
 }
 
 .item-price-discount {
@@ -1348,6 +1350,26 @@ img {
   margin-bottom: 13px;
   word-break: break-all;
 }
+
+.item-price::before,
+.item-price::after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  right: 0;
+  border-right: 10px solid var(--basic-white);
+}
+
+.item-price::before {
+  top: 0;
+  border-top: 10px solid var(--basic-white);
+}
+
+.item-price::after {
+  bottom: 0;
+  border-bottom: 10px solid var(--basic-white);
+}
+
 
 .add-item-cart {
   font-size: 14px;
