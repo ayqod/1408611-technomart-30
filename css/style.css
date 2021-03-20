@@ -681,6 +681,8 @@ img {
 
 .service-info-text {
   width: 275px;
+  margin: 0;
+  margin-top: 31px;
 }
 
 .service-info-item::before{
@@ -688,7 +690,7 @@ img {
   position: absolute;
   overflow: hidden;
   right: 0;
-  top: 5%;
+  top: 12%;
   height: 236px;
 }
 
