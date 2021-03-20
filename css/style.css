@@ -685,6 +685,15 @@ img {
   margin-top: 31px;
 }
 
+.promo-text {
+  font-family: var(--font-ptsans);
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
 .service-info-item::before{
   content: url("../img/layer-delivery.png");
   position: absolute;
