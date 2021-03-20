@@ -609,8 +609,6 @@ img {
 .popular-item,
 .catalog-item {
   border: var(--item-border) 1px solid;
-  width: 220px;
-  min-height: 318px;
   text-align: center;
   box-sizing: border-box;
   position: relative;
@@ -618,11 +616,11 @@ img {
 }
 
 .item-info {
+  min-height: 318px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  margin: 7px 17px 21px 19px;
 }
 
 .popular-heading {
@@ -1374,7 +1372,6 @@ img {
   bottom: 0;
   border-bottom: 10px solid var(--basic-white);
 }
-
 
 .add-item-cart {
   font-size: 14px;
