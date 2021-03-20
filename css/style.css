@@ -749,6 +749,7 @@ img {
   line-height: 30px;
   text-transform: uppercase;
   margin-top: 0;
+  font-weight: 400;
 }
 
 .contacts-info {
@@ -797,7 +798,21 @@ img {
 
 .client-list {
   list-style: none;
-  padding: 0;
+  padding-left: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.client-list-item {
+  position: relative;
+}
+
+.dash::before {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  width: 25px;
+  border-bottom: 2px solid var(--basic-red);
+  left: -30px;
 }
 
 /* Footer */
