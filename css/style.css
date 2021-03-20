@@ -615,14 +615,6 @@ img {
   overflow: hidden;
 }
 
-.item-info {
-  min-height: 318px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: center;
-}
-
 .popular-heading {
   width: 940px;
   height: 89px;
@@ -1314,9 +1306,18 @@ img {
   flex-grow: 1;
 }
 
+.item-info {
+  min-height: 318px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
 .item-photo {
   width: 184px;
   height: 164px;
+  object-fit: scale-down;
 }
 
 .item-discount {
