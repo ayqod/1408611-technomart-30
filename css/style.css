@@ -787,7 +787,6 @@ img {
 }
 
 .dash {
-  color: var(--basic-red);
   margin-right: 12px;
 }
 
@@ -800,19 +799,20 @@ img {
   list-style: none;
   padding-left: 30px;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 .client-list-item {
   position: relative;
+  margin-bottom: 11px;
 }
 
 .dash::before {
   content: "";
   position: absolute;
-  bottom: 12px;
+  bottom: 10px;
   width: 25px;
   border-bottom: 2px solid var(--basic-red);
-  left: -30px;
+  left: -25px;
 }
 
 /* Footer */
