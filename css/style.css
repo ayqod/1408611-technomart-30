@@ -96,6 +96,8 @@ img {
 }
 
 .main-button {
+  display: block;
+  width: 192px;
   background-color: var(--basic-red);
   color: var(--basic-white);
   font-size: 14px;
@@ -103,9 +105,11 @@ img {
   text-transform: uppercase;
   border: none;
   text-align: center;
+  padding: 10px 0;
+}
+
+.popular-button {
   align-self: center;
-  min-width: 144px;
-  padding: 10px 24px;
   margin-right: 14px;
 }
 
@@ -762,7 +766,7 @@ img {
 }
 
 .contacts-button {
-  display: block;
+  width: 100%;
 }
 
 .credits-button {
@@ -780,10 +784,7 @@ img {
 }
 
 .about-us-button {
-  padding-top: 11px;
-  padding-right: 40.29px;
-  padding-bottom: 9px;
-  padding-left: 39.71px;
+  width: 220px;
 }
 
 .dash {
@@ -799,9 +800,10 @@ img {
   list-style: none;
   padding-left: 25px;
   margin: 0;
-  margin-bottom: 28px;
+  margin-bottom: 21px;
   margin-top: -9px;
 }
+
 .client-list-item {
   position: relative;
   margin-bottom: 11px;
