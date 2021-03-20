@@ -646,14 +646,17 @@ img {
   background-color: var(--basic-bg);
   margin-top: 70px;
   display: grid;
-  grid-template-rows: 1fr 1.5fr;
   row-gap: 50px;
+  padding-top: 64px;
+  padding-bottom: 31px;
 }
 
 .service-block {
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 80px;
+  margin-top: 68px;
+  margin-bottom: 70px;
   position: relative;
 }
 
