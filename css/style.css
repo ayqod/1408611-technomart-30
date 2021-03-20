@@ -797,9 +797,10 @@ img {
 
 .client-list {
   list-style: none;
-  padding-left: 30px;
+  padding-left: 25px;
   margin: 0;
   margin-bottom: 28px;
+  margin-top: -9px;
 }
 .client-list-item {
   position: relative;
