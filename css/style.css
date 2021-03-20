@@ -680,7 +680,7 @@ img {
 }
 
 .service-info-text {
-  width: 280px;
+  width: 275px;
 }
 
 .service-info-item::before{
@@ -696,6 +696,7 @@ img {
 .service-info-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .service-list {
