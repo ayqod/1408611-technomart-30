@@ -418,15 +418,24 @@
       <form class="contacts-form" action="https://echo.htmlacademy.ru" method="POST">
         <div class="form-content">
           <div class="form-item form-item-name">
-            <label for=""></label>
-            <input type="text">
+            <label class="form-item-label" for="user-name">Ваше имя:</label>
+            <input class="form-item-input" id="user_name" type="text" placeholder="Имя Фамилия" name="name">
           </div>
           <div class="form-item form-item-email">
-            <label for=""></label>
-            <input type="text">
+            <label class="form-item-label" for="">Ваш e-mail:</label>
+            <input class="form-item-input" type="text">
+          </div>
+          <div class="form-item form-item-message">
+            <label class="form-item-label" for="">Текст письма:</label>
+            <textarea class="form-item-message-field" name="" id=""></textarea>
           </div>
         </div>
+        <div class="modal-button-wrapper">
+          <button class="modal-button" type="submit">Отправить</button>
+        </div>
       </form>
+      <button class="modal-close-button" type="button" aria-label="Закрыть окно">
+      </button>
     </section>
   </body>
 </html>

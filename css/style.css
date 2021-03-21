@@ -781,6 +781,7 @@ img {
   grid-template-columns: 460px min-content;
   gap: 180px;
   padding: 70px 0;
+  position: relative;
 }
 
 .about-us-button {
@@ -1501,6 +1502,72 @@ img {
   margin: 0;
 }
 
-.modal {
+/* .modal {
   display: none;
+} */
+
+/* ===== MODAL WINDOW ====== */
+
+.modal {
+  font-size: 18px;
+  line-height: 24px;
+  filter: drop-shadow(0 20px 40px var(--transparent-black));
 }
+
+.modal-feedback {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 620px;
+  border-top: 7px solid var(--basic-red);
+  background-color: var(--basic-white);
+}
+
+.modal-active {
+  display: block;
+}
+
+.form-content {
+  display: grid;
+  grid-template-columns: repeat(2, 220px);
+  row-gap: 15px;
+  column-gap: 15px;
+  padding: 40px 80px 30px;
+}
+
+.form-item {
+  margin: 0;
+}
+
+.form-item-label {
+  display: block;
+  margin-bottom: 11px;
+}
+
+.form-item-input {
+  width: 220px;
+  padding: 5px 10px 5px 12px;
+}
+
+.form-item-message-field,
+.form-item-input {
+  box-sizing: border-box;
+  font-size: 13px;
+  line-height: 24px;
+  border: 2px solid var(--color-grey-5);
+}
+
+.form-item-message-field {
+  width: 100%;
+  min-height: 114px;
+  padding-left: 12px;
+  padding-bottom: 7px;
+  resize: none;
+}
+
+.form-item-message {
+  grid-column: 1/-1;
+}
+
+.
