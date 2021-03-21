@@ -904,10 +904,11 @@ img {
 }
 
 .footer-references-block {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 20px;
   align-items: center;
-  padding: 32px 0 33px;
+  min-height: 107px;
 }
 
 .footer-bottom-links,
