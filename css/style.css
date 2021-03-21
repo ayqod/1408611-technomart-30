@@ -1589,3 +1589,31 @@ img {
   cursor: pointer;
   text-transform: uppercase;
 }
+
+.modal-close-button {
+  position: absolute;
+  top: 13px;
+  right: 8px;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.modal-close-button::before,
+.modal-close-button::after {
+  content: "";
+  width: 0;
+  height: 25px;
+  transform: rotate(45deg);
+  border-left: 4px solid var(--basic-red);
+  position: absolute;
+  top: -1px;
+  right: 10px;
+}
+
+.modal-close-button::after {
+  transform: rotate(-45deg);
+}
