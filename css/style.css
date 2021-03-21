@@ -368,7 +368,6 @@ img {
 }
 
 .header-menu-bar {
-  /* display: flex; */
   justify-self: end;
   padding-top: 21px;
 }
@@ -507,10 +506,9 @@ img {
 }
 
 .slider-button {
-  display: block;
   position: absolute;
-    bottom: 12%;
-    left: 24px;
+  bottom: 12%;
+  left: 24px;
   background-color: var(--basic-red);
   text-transform: uppercase;
   font-size: 14px;
@@ -667,7 +665,7 @@ img {
 
 .service-block {
   display: grid;
-  grid-template-columns: 240px 2fr;
+  grid-template-columns: 240px auto;
   column-gap: 80px;
   margin-top: 68px;
   margin-bottom: 70px;
