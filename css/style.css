@@ -11,6 +11,7 @@
   --item-border: #EAEAEA;
   --footer-top-bg: #32425C;
   --breadcrumbs-arrows: #C1C6CE;
+  --modal-btn-bg: #F4F4F4;
 
   --color-grey-2: #F2F6F8;
   --color-grey-4: #F9F5F0;
@@ -1516,7 +1517,7 @@ img {
 
 .modal-feedback {
   position: fixed;
-  top: 16px;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   width: 620px;
@@ -1570,4 +1571,21 @@ img {
   grid-column: 1/-1;
 }
 
-.
+.modal-button-wrapper {
+  background-color: var(--modal-btn-bg);
+  width: 100%;
+  min-height: 112px;
+}
+
+.modal-button {
+  width: 460px;
+  padding: 10px 0;
+  margin: 38px 80px;
+  background-color: var(--basic-red);
+  color: var(--basic-white);
+  font-size: 14px;
+  line-height: 18px;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
