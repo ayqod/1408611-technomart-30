@@ -1501,13 +1501,10 @@ img {
   margin: 0;
 }
 
-/* .modal {
-  display: none;
-} */
-
 /* ===== MODAL WINDOW ====== */
 
 .modal {
+  display: none;
   font-size: 18px;
   line-height: 24px;
   filter: drop-shadow(0 20px 40px var(--transparent-black));
@@ -1523,7 +1520,7 @@ img {
   background-color: var(--basic-white);
 }
 
-.modal-active {
+.modal-feedback--visible {
   display: block;
 }
 
