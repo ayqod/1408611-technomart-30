@@ -263,7 +263,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 7px;
+  margin-bottom: -8px;
   background-color: var(--basic-white);
 }
 
@@ -285,8 +285,8 @@ img {
 .user-menu {
   display: flex;
   justify-content: space-between;
-  padding: 0 35px;
-  margin-top: 7px;
+  padding: 0 44px;
+  margin-top: 12px;
   position: relative;
 }
 
