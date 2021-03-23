@@ -970,7 +970,8 @@ img {
 
 .catalog-breadcrumbs {
   grid-column: 1 / -1;
-  margin: 15px;
+  margin-bottom: 19px;
+  padding-top: 5px;
 }
 
 .catalog-item-actions {
