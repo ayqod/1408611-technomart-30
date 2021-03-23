@@ -1329,7 +1329,6 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: 20px;
   margin-top: 28px;
   margin-bottom: 37px;
 }
@@ -1352,6 +1351,11 @@ img {
   flex-grow: 1;
 }
 
+.catalog-item-title {
+  padding: 28px 0 0 19px;
+  margin-bottom: 0;
+}
+
 .item-info {
   min-height: 318px;
   display: flex;
@@ -1371,6 +1375,8 @@ img {
   font-size: 17px;
   line-height: 18px;
   color: var(--old-price);
+  margin-top: 7px;
+  margin-bottom: 14px;
 }
 
 .item-price {
@@ -1388,7 +1394,7 @@ img {
   line-height: 18px;
   border-radius: 5px;
   margin-bottom: 21px;
-  margin-left: 13px;
+  margin-left: 43px;
 }
 
 .item-price-discount {
