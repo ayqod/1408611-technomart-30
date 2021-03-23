@@ -1378,6 +1378,11 @@ img {
   margin-bottom: 14px;
 }
 
+.item-discount-empty {
+  margin-bottom: 9px;
+  min-height: 23px;
+}
+
 .item-price {
   position: relative;
   background-color: var(--basic-red);
