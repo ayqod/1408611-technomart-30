@@ -1352,8 +1352,7 @@ img {
 }
 
 .catalog-item-title {
-  padding: 28px 0 0 19px;
-  margin-bottom: 0;
+  padding-left: 18px;
 }
 
 .item-info {
