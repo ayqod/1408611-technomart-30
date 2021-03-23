@@ -1643,6 +1643,7 @@ img {
 }
 
 .modal-in-cart {
+  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
