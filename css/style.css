@@ -1630,3 +1630,12 @@ img {
 .modal-close-button::after {
   transform: rotate(-45deg);
 }
+
+/* MODAL CART */
+
+.modal-in-cart {
+  width: 620px;
+  min-height: 282px;
+  top: 35%;
+  bottom: auto;
+}
