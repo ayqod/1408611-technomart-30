@@ -957,7 +957,8 @@ img {
 .footer-social {
   display: flex;
   list-style: none;
-  margin: 10px 0 0 31px;
+  margin-top: 10px;
+  margin-left: 31px;
 }
 
 .footer-social-icon {
