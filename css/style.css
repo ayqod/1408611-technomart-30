@@ -1470,6 +1470,8 @@ img {
 
 .pagination-item {
   list-style: none;
+  font-size: 13px;
+  text-transform: uppercase;
 }
 
 .pagination-link:active {
@@ -1483,6 +1485,10 @@ img {
   border: 1px solid var(--button-border);
   padding: 10px 15px;
   margin-right: 10px;
+}
+
+.pagination-forward {
+  padding: 10px 31px;
 }
 
 .pagination-link-active {
