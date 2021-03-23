@@ -1397,6 +1397,13 @@ img {
   margin-left: 43px;
 }
 
+.item-image {
+  width: 184px;
+  height: 164px;
+  margin-left: 19px;
+  object-fit: contain;
+}
+
 .item-price-discount {
   font-family: var(--font-ptsans);
   font-weight: 700;
