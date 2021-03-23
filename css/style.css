@@ -1363,12 +1363,6 @@ img {
   align-items: center;
 }
 
-.item-photo {
-  width: 184px;
-  height: 164px;
-  object-fit: scale-down;
-}
-
 .item-discount {
   font-weight: bold;
   font-size: 17px;
