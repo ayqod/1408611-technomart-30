@@ -619,6 +619,11 @@ img {
   overflow: hidden;
 }
 
+.catalog-item:hover,
+.popular-item:hover {
+  box-shadow: 0 4px 20px var(--transparent-black);
+}
+
 .popular-heading {
   width: 940px;
   height: 89px;
@@ -889,10 +894,6 @@ img {
 .footer-nav-list:last-child {
   margin: 33px 0 0 20px;
 }
-
-/* .footer-nav-wrap ul li:not(:first-child) {
-  padding-left: 58px;
-} */
 
 .footer-top-links,
 .footer-bottom-links {
