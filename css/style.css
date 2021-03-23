@@ -755,6 +755,10 @@ img {
   font-weight: 400;
 }
 
+.heading {
+  margin-top: 7px;
+}
+
 .contacts-info {
   margin: 0;
 }
@@ -1330,7 +1334,7 @@ img {
   margin: 0;
   padding: 0;
   margin-top: 28px;
-  margin-bottom: 37px;
+  margin-bottom: 49px;
 }
 
 .pagination-list {
