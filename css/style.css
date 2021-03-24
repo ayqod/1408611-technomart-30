@@ -1718,3 +1718,12 @@ img {
   color: var(--basic-white);
   margin-right: 10px;
 }
+
+/* MODAL MAP */
+
+.modal-map {
+  width: 943px;
+  height: 449px;
+  box-shadow: 0 4px 20px var(--transparent-black);
+  border-top: 4px solid var(--basic-red);
+}
