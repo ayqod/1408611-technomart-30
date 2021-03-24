@@ -614,6 +614,7 @@ img {
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
+  max-height: 318px;
 }
 
 .popular-item img,
@@ -1537,7 +1538,7 @@ img {
 }
 
 .about-item {
-  padding: 65px 0 70px;
+  padding: 39px 0 70px;
 }
 
 .about-item-text {
