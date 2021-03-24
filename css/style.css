@@ -795,7 +795,7 @@ img {
   display: grid;
   grid-template-columns: 460px min-content;
   gap: 180px;
-  padding: 70px 0;
+  padding: 69px 0;
   position: relative;
 }
 
@@ -860,8 +860,12 @@ img {
 }
 
 .footer-nav-wrap {
-  margin-top: 37px;
-  margin-left: 45px;
+  margin-top: 39px;
+  margin-left: 68px;
+}
+
+.footer-creators-name {
+  margin-left: 54px;
 }
 
 .footer-top-links:hover {
