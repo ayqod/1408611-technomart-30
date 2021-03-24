@@ -245,6 +245,11 @@ img {
   background-color: var(--basic-red);
 }
 
+.menu-cart-empty {
+  background-color: var(--navigation-bg);
+}
+
+
 .menu-bar-checkout:active {
   opacity: 0.5;
 }
