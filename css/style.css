@@ -242,6 +242,7 @@ img {
   padding-bottom: 9px;
   padding-left: 43px;
   margin-left: 3px;
+  background-color: var(--basic-red);
 }
 
 .menu-bar-checkout:active {
