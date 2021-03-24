@@ -147,10 +147,6 @@ img {
   box-shadow: 0 5px 0 0 var(--logo-border);
 }
 
-.menu-bar-cart-link {
-  margin-left: 5px;
-}
-
 .nav-searchbar::before {
   content: "";
   position: absolute;
@@ -243,9 +239,9 @@ img {
 .menu-bar-cart {
   position: relative;
   padding-top: 9px;
-  padding-right: 26px;
   padding-bottom: 9px;
   padding-left: 43px;
+  margin-left: 3px;
 }
 
 .menu-bar-checkout:active {
