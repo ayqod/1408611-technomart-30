@@ -619,6 +619,12 @@ img {
   overflow: hidden;
 }
 
+.popular-item img {
+  width: 184px;
+  height: 164px;
+  object-fit: scale-down;
+}
+
 .catalog-item:hover,
 .popular-item:hover {
   box-shadow: 0 4px 20px var(--transparent-black);
