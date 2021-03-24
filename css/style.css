@@ -1393,8 +1393,8 @@ img {
 }
 
 .item-discount-empty {
-  margin-bottom: 9px;
-  min-height: 23px;
+  margin-bottom: 3px;
+  min-height: 15px;
 }
 
 .item-price {
@@ -1538,7 +1538,7 @@ img {
 }
 
 .about-item {
-  padding: 39px 0 70px;
+  padding: 66px 0 70px;
 }
 
 .about-item-text {
