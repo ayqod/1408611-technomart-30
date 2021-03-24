@@ -1741,6 +1741,7 @@ img {
   text-transform: uppercase;
   background-color: var(--button-border);
   text-align: center;
+  color: var(--basic-black);
 }
 
 .order-btn-cart {
