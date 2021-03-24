@@ -203,16 +203,6 @@ img {
   height: 16px;
 }
 
-.menu-bar-cart::before {
-  content: "";
-  position: absolute;
-  background-image: url("../img/icons/icon-cart.png");
-  top: 13px;
-  left: 25px;
-  width: 14px;
-  height: 16px;
-}
-
 .nav-searchbar,
 .menu-bar-bookmark,
 .menu-bar-cart {
@@ -237,12 +227,20 @@ img {
 }
 
 .menu-bar-cart {
-  position: relative;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 43px;
-  margin-left: 3px;
+  width: 136px;
+  padding: 9px 30px 0 38px;
+  margin-left: 11px;
   background-color: var(--basic-red);
+}
+
+.menu-bar-cart-link::before {
+  content: "";
+  position: absolute;
+  background-image: url("img/icons/icon-cart.png");
+  top: 13px;
+  left: 25px;
+  width: 14px;
+  height: 16px;
 }
 
 .menu-cart-empty {
