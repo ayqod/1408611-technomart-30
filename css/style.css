@@ -1425,6 +1425,10 @@ img {
   object-fit: contain;
 }
 
+.item-catalog-image {
+  margin-left: 9px;
+}
+
 .item-price-discount {
   font-family: var(--font-ptsans);
   font-weight: 700;
