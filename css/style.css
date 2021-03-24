@@ -619,7 +619,8 @@ img {
   overflow: hidden;
 }
 
-.popular-item img {
+.popular-item img,
+.catalog-item img {
   width: 184px;
   height: 164px;
   object-fit: scale-down;
