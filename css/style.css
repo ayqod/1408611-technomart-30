@@ -906,6 +906,11 @@ img {
 
 .footer-phone {
   color: inherit;
+  font-style: normal;
+}
+
+.footer-address {
+  font-style: inherit;
 }
 
 .footer-references-block {
