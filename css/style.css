@@ -1739,6 +1739,8 @@ img {
   line-height: 18px;
   border: none;
   text-transform: uppercase;
+  background-color: var(--button-border);
+  text-align: center;
 }
 
 .order-btn-cart {
